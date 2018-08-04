@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.calculator_android.MainActivity" >
+    <item android:id="@+id/math" android:title="Math" android:showAsAction="ifRoom">
+        <menu>
+            <item android:id="@+id/sin" android:title="sin"/>
+            <item android:id="@+id/cos" android:title="cos"/>
+            <item android:id="@+id/tan" android:title="tan"/>
+            <item android:id="@+id/pi" android:title="PI"/>
+        </menu>
+    </item>
+    <item android:id="@+id/sound" android:title="Sound" android:showAsAction="ifRoom">
+        <menu>
+            <item android:id="@+id/beep" android:title="Beep"/>
+            <item android:id="@+id/vibration" android:title="Vibration"/>
+            <item android:id="@+id/silence" android:title="Silence"/>
+        </menu>
+    </item>
+
+</menu>

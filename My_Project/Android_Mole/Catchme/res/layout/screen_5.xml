@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="게임시작 화면"
+        android:gravity="center"
+        android:textColor="#b6283c99"
+        android:textSize="7pt" />
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:src="@drawable/screen_dudoje" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:text="1)게임중 두더지가 나오는 경우 맞추면 점수가 1점 증가합니다."
+        android:textColor="#b6283c99"
+        android:textSize="7pt" />
+
+</LinearLayout>

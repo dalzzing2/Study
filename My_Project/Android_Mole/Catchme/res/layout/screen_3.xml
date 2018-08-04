@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="게임기록 화면"
+        android:gravity="center"
+        android:textColor="#b6283c99"
+        android:textSize="7pt" />
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:src="@drawable/screen_record" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:text="1)게임 기록을 클릭하면 기록창이 나옵니다.\n2)이름, 점수, 시간 순으로 나열됩니다."
+        android:textSize="7pt" 
+        android:textColor="#b6283c99"/>
+
+</LinearLayout>

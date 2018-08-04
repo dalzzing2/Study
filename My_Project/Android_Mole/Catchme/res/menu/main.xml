@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.catchme.MainActivity" >
+
+	<item android:id="@+id/sound" android:title="Sound" android:showAsAction="ifRoom">
+        <menu>
+            <item android:id="@+id/beep" android:title="음성"/>
+            <item android:id="@+id/vibration" android:title="진동"/>
+            <item android:id="@+id/silence" android:title="무음"/>
+            <item android:id="@+id/stopbackmusic" android:title="음악중지"/>
+            <item android:id="@+id/startbackmusic" android:title="음악재생"/>
+        </menu>
+    </item>
+</menu>

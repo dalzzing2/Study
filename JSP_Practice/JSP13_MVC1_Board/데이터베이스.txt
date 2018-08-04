@@ -1,0 +1,13 @@
+[ Board 테이블의 Board_idx 컬럼의 시퀀스]
+
+create sequence JDBC_BOARD_SEQ
+start with 0
+minvalue 0
+increment by 1;
+
+[ Reply 테이블의 REPLAY_IDX 컬럼의 시퀀스 ]
+
+create sequence JDBC_REPLY_SEQ
+start with 0
+minvalue 0
+increment by 1;

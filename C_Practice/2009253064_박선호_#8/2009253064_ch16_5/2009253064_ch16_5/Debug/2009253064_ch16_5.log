@@ -1,0 +1,22 @@
+﻿빌드 시작: 2014-05-30 오후 9:12:28
+     1>2 노드의 "E:\Project\객체지향\2009253064_박선호_#8\2009253064_ch16_5\2009253064_ch16_5\2009253064_ch16_5.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\2009253064_ch16_5.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         E:\Program\Visual Studio 2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt 2009253064_ch16_5.cpp
+         2009253064_ch16_5.cpp
+     1>e:\project\객체지향\2009253064_박선호_#8\2009253064_ch16_5\2009253064_ch16_5\2009253064_ch16_5.cpp(53): warning C4101: 'result' :참조되지 않은 지역 변수입니다.
+       Link:
+         E:\Program\Visual Studio 2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Project\객체지향\2009253064_박선호_#8\2009253064_ch16_5\Debug\2009253064_ch16_5.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\2009253064_ch16_5.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Project\객체지향\2009253064_박선호_#8\2009253064_ch16_5\Debug\2009253064_ch16_5.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Project\객체지향\2009253064_박선호_#8\2009253064_ch16_5\Debug\2009253064_ch16_5.lib" /MACHINE:X86 Debug\2009253064_ch16_5.obj
+         LINK : E:\Project\객체지향\2009253064_박선호_#8\2009253064_ch16_5\Debug\2009253064_ch16_5.exe을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
+         2009253064_ch16_5.vcxproj -> E:\Project\객체지향\2009253064_박선호_#8\2009253064_ch16_5\Debug\2009253064_ch16_5.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\Project\객체지향\2009253064_박선호_#8\2009253064_ch16_5\Debug\2009253064_ch16_5.exe;#1" /manifest Debug\2009253064_ch16_5.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         "Debug\2009253064_ch16_5.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\2009253064_ch16_5.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"E:\Project\객체지향\2009253064_박선호_#8\2009253064_ch16_5\2009253064_ch16_5\2009253064_ch16_5.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:00.63

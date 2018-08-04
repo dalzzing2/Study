@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans 
+ http://www.springframework.org/schema/beans/spring-beans-4.1.xsd">
+ 	<!--
+ 		Bean 설정 시 scope를 생략하거나 scope에 singleton
+ 		값을 넣어주면 싱글 톤으로 생성된다.
+ 		Bean을 가져올 때 마다 같은 객체가 추출된다. 
+ 	 -->
+ 	 <bean id="test1" class="bean.TestBean1"/>
+ 	 <bean id="test2" class="bean.TestBean1"/>
+ 	 <!--
+ 	 	Bean 설정 시 scope에 prototype 값을 넣어 주면
+ 	 	Bean을 가져올 때 마다 새롭게 생성해서 전달한다.
+ 	 	가져온 객체는 참조 변수나 컬렉션에 담아줘야지만
+ 	 	보관이 가능하다.  
+ 	  -->
+ 	  <bean id="test3" class="bean.TestBean1" 
+ 	        scope="prototype"/>
+ 	 <!-- 팩토리 메서드 사용하기 -->
+ 	 <bean id="test4" class="bean.TestBean2"
+ 	        factory-method="newInstance"/>
+</beans>
+
+
+
+
+
+
+
+
+
+
+

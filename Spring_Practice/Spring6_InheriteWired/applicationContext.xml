@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans 
+ http://www.springframework.org/schema/beans/spring-beans-4.1.xsd"
+ default-autowire="byName">
+ 	<!-- 기본적인 주입 -->
+ 	<!-- 부모 클래스로 부터 물려 받은 맴버의 값도 주입 -->
+ 	<bean id="super1" class="bean.SuperBean">
+ 		<property name="data1" value="100"/>
+ 		<property name="data2" value="200"/>
+ 	</bean>
+ 	
+ 	<bean id="sub1" class="bean.SubBean" parent="super1">
+ 	<!-- 
+ 		<property name="data1" value="100"/>
+ 		<property name="data2" value="200"/>
+	 -->
+ 		<property name="data3" value="300"/>
+ 	</bean>
+ 	
+ 	<bean id="sub2" class="bean.SubBean" parent="super1">
+ 	<!-- 
+ 		<property name="data1" value="100"/>
+ 		<property name="data2" value="200"/>
+ 	-->
+ 		<property name="data3" value="400"/>
+ 	</bean>
+</beans>
+
+
+
+
+
+
+
+
+
+
+

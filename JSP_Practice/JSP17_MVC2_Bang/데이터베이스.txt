@@ -1,0 +1,20 @@
+[ 방명록 테이블의 시퀀스 ]
+
+create sequence JDBC_BANG_SEQ
+start with 0
+minvalue 0
+increment by 1;
+
+[ 방명록 테이블 ]
+
+create table JDBC_BANG_TABLE(
+bang_idx number not null primary key,
+bang_name varchar2(20) not null,
+bang_content varchar2(500) not null
+);
+
+
+
+
+
+

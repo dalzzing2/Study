@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans 
+ http://www.springframework.org/schema/beans/spring-beans-4.1.xsd">
+ 	
+ 	<bean id="data" class="bean.DataBean" scope="prototype"/>
+ 	
+ 	<!-- 생성자를 통한 주입 -->
+ 	<bean id="test1" class="bean.TestBean">
+ 		<!-- index : 매개 변수의 순서 -->
+ 		<constructor-arg index="0" value="100"/>
+ 		<constructor-arg index="1" value="안녕하세요"/>
+ 		<constructor-arg index="2" ref="data"/>
+ 	</bean>
+ 	<!-- 세터를 통한 주입 -->
+ 	<bean id="test2" class="bean.TestBean">
+ 		<property name="data1" value="200"/>
+ 		<property name="data2" value="반갑습니다"/>
+ 		<property name="data3" ref="data"/>
+ 	</bean>
+ 	<!-- ArrayList 주입 -->
+ 	<bean id="test3" class="bean.TestBean">
+ 		<property name="list1">
+ 			<list>
+	 			<value>문자열1</value>
+	 			<value>문자열2</value>
+	 			<value>문자열3</value>
+ 			</list>
+ 		</property>
+ 	</bean>
+ 	<bean id="test4" class="bean.TestBean">
+ 		<property name="list2">
+ 			<list>
+ 				<ref bean="data"/>
+ 				<ref bean="data"/>
+ 				<ref bean="data"/>
+ 				<bean class="bean.DataBean"/>
+ 			</list>
+ 		</property>
+ 	</bean>
+ 	<!--  map 주입 -->
+ 	<bean id="test5" class="bean.TestBean">
+ 		<property name="map">
+ 			<map>
+ 				<!--  기본 자료형, 문자열 주입 -->
+ 				<entry key="v1" value="문자열1"/>
+ 				<!--  객체 주입 -->
+ 				<entry key="v2" value-ref="data"/>
+ 			</map>
+ 		</property>
+ 	</bean>
+</beans>
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,128 @@
+@CHARSET "utf-8";
+@import "reset.css";
+
+html{
+	/* 스크롤할 필요가 없다고 하더라도 스크롤바 영역을 표시 */
+	overflow-y : scroll;
+}
+
+body{
+	/* 배경 */
+	background : url(../tab_image/wood_bg.jpg);
+	/* 글자색 */
+	color : #ffffff;
+}
+
+/* main class */
+.main{
+	/* 가로 길이 */
+	width : 740px;
+	/* 중앙에 배치 */
+	margin : 10px auto;
+}
+
+/* tab_title class */
+.tab_title{
+	/* 글자색 */
+	color : #ffffff;
+	/* 글자 굵기 */
+	font-weight : bold;
+	/* 가운데 정렬 */
+	text-align : center;
+	/* 그림자 : x, y, z, 색상 */
+	text-shadow : 0px 2px 1px #111111;
+}
+.tab_title span{
+	/* 아래로 내려갈 수 잇도록 영역을 부여 */
+	display : block;
+	/* 여백 */
+	margin-top : 6px;
+	/* 자간 설정 */
+	letter-spacing : 7px;
+	/* 글자 크기 */
+	font-size : 14px;
+}
+
+/* 탭 메뉴 부분 */
+.tab_menu li{
+	/* 가로 방향으로 나열 시킨다. */
+	float : left;
+	margin-right : 2px;
+	/* 하위의 태그 중 postition이 absolute 인 태그의 좌표 기준으로 설정한다.
+	기준으로 설정하지 않으면 브라우저의 좌측 상단이 기준이 된다. */
+	position : relative;
+}
+
+/* 탭 본문 부분이 메뉴 우측에 올라오는 것을 제거 */
+.tab_menu:after{
+	content : "";
+	display : block;
+	clear : both;
+}
+
+/* 탭 버튼 부분 */
+.tab_menu li a{
+	/* 영역 태그로 만들어 준다 */
+	display : block;
+	/* 배경, 글자색 */
+	background : #e5e9ea;
+	color : #607291;
+	/* 여백 (em : 기본 폰트 크기 = 1em) */
+	padding : 0.5em 1.5em;
+	font-size : 16px;
+	/* 모서리를 둥글게 깍아준다 */
+	/* 좌상, 우상, 우하, 좌하 */
+	border-radius : 7px 7px 0px 0px;
+	/* 애니메이션 설정 */
+	transition : all 0.2s;
+}
+
+/* a 태그 안에 있는 이미지 셋팅 */
+.tab_menu li img{
+	position : absolute;
+	top : 7px;
+	left : 16px;
+	opacity : 0px;
+	transition : all 0.2s;
+}
+
+.tab_menu li:hover a{
+	background : #f9f9f9;
+	padding-left : 2.2em;
+	padding-right : 0.8em;
+}
+
+.tab_menu li:hover img{
+	opacity : 1;
+	left : 6px;
+}
+
+/* 본문 부분 */
+.tab_contents{
+	padding : 2em;
+	color : #607291;
+	background : #f9f9f9;
+	/* 최소 높이 */
+	min-height : 144px;
+	/* 영역의 그림자 */
+	box-shadow : 2px 2px 2px #5c5c5c;
+	/* position이 absolute로 설정되어 있는 하위 태그들의 좌표 기준으로 설정 */
+	position : relative;
+}
+
+.tab_contents img{
+	float : left;
+	margin-right : 10px;
+}
+.tab_contents li{
+	position : abolute;
+	top : 35px;
+	left : 15px;
+	width : 95%;
+	min-height : 144px;
+	margin-bottom : 20px;
+	background : #f9f9f9;
+}
+.tab_contents li.active{
+	z-index : 100;
+}

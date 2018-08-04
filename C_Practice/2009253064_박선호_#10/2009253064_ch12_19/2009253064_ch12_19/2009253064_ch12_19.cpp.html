@@ -1,0 +1,39 @@
+<pre>
+#include &lt;iostream&gt;
+#include &lt;fstream&gt;
+#include &lt;string&gt;
+using namespace std;
+
+int main(){
+	ifstream inFile;
+	ofstream outFile;
+
+	string filename;
+
+	cout &lt;&lt; "Enter your file name : ";
+	cin &gt;&gt; filename;
+
+	inFile.open(filename);
+	outFile.open(filename+".html");
+
+	if(inFile.fail() == false && outFile.fail() == false){
+		outFile &lt;&lt; "&lt;pre&gt;" &lt;&lt; endl;
+		char ch;
+		while(inFile.get(ch)){
+			switch(ch){
+			case '&lt;':
+				outFile &lt;&lt; "&lt;";
+				break;
+			case '&gt;':
+				outFile &lt;&lt; "&gt;";
+				break;
+			default:
+				outFile &lt;&lt; ch;
+			}
+		}
+		outFile &lt;&lt; "&lt;/pre&gt;" &lt;&lt; endl;
+	}
+	inFile.close();
+	outFile.close();
+	return 0;
+}</pre>

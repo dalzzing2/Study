@@ -1,0 +1,12 @@
+[채팅 테이블 시퀀스]
+create sequence JDBC_CHAT_SEQ
+start with 0
+minvalue 0
+increment by 1;
+
+[채팅 테이블]
+create table JDBC_CHAT_TABLE(
+CHAT_IDX number primary key,
+CHAT_USER varchar2(50) not null,
+CHAT_CONTENT varchar2(500) not null
+);

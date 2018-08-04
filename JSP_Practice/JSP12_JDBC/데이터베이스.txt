@@ -1,0 +1,8 @@
+[ 테이블 생성 ]
+create table JDBC_TEST_TABLE(
+INT_DATA number not null,
+STR_DATA varchar(100) not null
+);
+
+[ 테이블 확인 ]
+desc JDBC_TEST_TABLE;

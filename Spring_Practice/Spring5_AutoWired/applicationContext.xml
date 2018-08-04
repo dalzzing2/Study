@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans 
+ http://www.springframework.org/schema/beans/spring-beans-4.1.xsd"
+ default-autowire="byName">
+ 	<!-- 주입할 빈 객체 -->
+ 	<!-- 
+ 	<bean id="data1" class="bean.DataBean" scope="prototype"/>
+ 	<bean id="data2" class="bean.DataBean" scope="prototype"/>
+ 	 -->
+ 	<!-- 기본 주입 -->
+ 	<!-- 
+ 	<bean id="test1" class="bean.TestBean" scope="prototype">
+ 		<property name="data1" ref="data1"/>
+ 		<property name="data2" ref="data2"/>
+ 	</bean>
+ 	 -->
+ 	 <!-- 이름을 통한 자동 주입 -->
+ 	 <!-- 
+ 	 <bean id="test1" class="bean.TestBean" scope="prototype"
+ 	       autowire="byName"/>
+	 -->
+	 <!-- 타입을 통한 자동 주입 -->
+	 <!-- 같은 타입의 bean이 등록되어 있다면 오류발생 -->
+	 <!-- 
+	 <bean id="data_bean" class="bean.DataBean"
+	       scope="prototype"/>
+	 <bean id="test1" class="bean.TestBean" scope="prototype"
+	       autowire="byType"/>
+		-->
+	<!-- 생성자를 이용한 자동 주입 -->
+	<!-- 생성자의 매개변수 이름과 동일한 이름을 가지고 있는
+	     bean이 주입된다.
+	 -->	
+	 <!-- 
+	<bean id="d1" class="bean.DataBean" scope="prototype"/>
+	<bean id="d2" class="bean.DataBean" scope="prototype"/>
+	<bean id="test1" class="bean.TestBean" scope="prototype"
+		  autowire="constructor"/>
+	 -->
+	<!-- 기본 주입 방법을 이용 -->
+	<bean id="data1" class="bean.DataBean" scope="prototype"/>
+	<bean id="data2" class="bean.DataBean" scope="prototype"/>
+	<bean id="test1" class="bean.TestBean" scope="prototype"/>
+	<!-- 기본 주입 방식을 설정했을 경우 주입을 받지 않겠다면
+		autowire에 no를 넣어준다.
+	 -->
+	<!-- 
+	<bean id="test1" class="bean.TestBean" scope="prototype"
+	      autowire="no"/>
+	 -->
+</beans>
+
+
+
+
+
+
+
+
+
+
+

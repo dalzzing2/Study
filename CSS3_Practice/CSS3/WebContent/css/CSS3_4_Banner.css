@@ -1,0 +1,91 @@
+@CHARSET "UTF-8";
+/* 외부 css 파일 로딩 */
+@import "reset.css";
+/* 웹 폰트 설정 */
+@import url(https://fonts.googleapis.com/css?family=Sigmar+One);
+
+/* body 태그 */
+body {
+	/* 내부 여백 */
+	padding : 20px;
+	/* 배경색을 설정 */
+	background : #333333;
+}
+/* banner */
+.banner{
+	/* 가로 세로 길이를 설정 */
+	width : 728px;
+	height : 176px;
+	/* 외곽선 */
+	border : 1px solid #555555;
+	/* a 태그를 영역을 가지는 태그로 만들어 준다. */
+	display : block;	
+	/* 배경 이미지 설정 */
+	background : url(../image/banner-arrow.png) no-repeat -100px 140px,
+	             url(../image/banner-photo.png) no-repeat -40px 220px,
+	             url(../image/banner-09.png) no-repeat -20px -380px,
+	             url(../image/banner-bg.png) no-repeat 0px 0px;
+	/* 애니메이션 설정 */
+	transition : all .4s;
+}
+/* 로고 이미지 */
+.banner-logo{
+	position : relative;
+	top : 20px;
+	left : 270px;
+	/* 애니메이션 설정 */
+	transition : all .4s;
+}
+/* 가운데 문자열 */
+.banner-desc{
+	position : relative;
+	top : -100px;
+	left : 170px;
+	color : #4ec1cd;
+	font-size : 25px;
+	/* 웹 폰트 설정 */
+	font-family: 'Sigmar One', cursive;
+	/* 투명도 : 1 - 완전 불투명, 0 - 완전 투명 */
+	opacity : 0;
+	/* 애니메이션 설정 */
+	transition : all .4s;
+}
+/*---------- 마우스 올렸을 때 ---------------- */
+.banner:hover{
+	/* 배경 이미지의 좌표 설정 */
+	background-position : 20px 140px,
+	                      -40px 20px,
+	                      -20px -90px,
+	                      0px 0px; 
+}
+.banner:hover .banner-logo{
+	left : 540px;
+}
+.banner:hover .banner-desc{
+	opacity : 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

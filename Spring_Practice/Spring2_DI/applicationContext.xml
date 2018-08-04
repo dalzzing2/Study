@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans 
+ http://www.springframework.org/schema/beans/spring-beans-4.1.xsd">
+ <!-- TestBean 객체 생성(SingleTon) -->
+ <!--
+ 	scope 속성을 생략하거나 singleton을 넣어주면 
+ 	xml 로딩시 객체가 생성되고 자바 코드에서는 계속 같은 객체를
+ 	가져와서 사용하게 된다.
+  -->
+ <bean id="test1" class="bean.TestBean"/>
+ <!-- TestBean 객체 등록(Prototype) -->
+ <!--
+ 	scope 속성에 prototype을 넣어주면 계속 새로운 객체가
+ 	생성된다 
+  -->
+ <bean id="test2" class="bean.TestBean" scope="prototype"/>
+ <!-- 생성자 사용 -->
+ <bean id="test3" class="bean.TestBean">
+ 	<!-- 매개 변수 하나 -->
+ 	<constructor-arg index="0" value="100" type="int"/>
+ </bean>
+ 
+ <bean id="test4" class="bean.TestBean">
+ 	<!-- 매개 변수 두 개 -->
+ 	<constructor-arg index="0" value="200"/>
+ 	<constructor-arg index="1" value="22.22"/>
+ </bean>
+ <!-- 문자열을 매개 변수로 받는 생성자를 사용 -->
+ <bean id="test5" class="bean.TestBean">
+ 	<constructor-arg index="0" value="안녕하세요"/>
+ </bean>
+ <!-- 주입 시킬 빈 -->
+ <bean id="data1" class="bean.DataBean">
+ 	<constructor-arg index="0" value="1000"/>
+ </bean>
+ <bean id="data2" class="bean.DataBean">
+ 	<constructor-arg index="0" value="2000"/>
+ </bean>
+ <!-- 객체를 주입 -->
+ <bean id="test6" class="bean.TestBean">
+ 	<constructor-arg index="0" ref="data1"/>
+ </bean>
+ <bean id="test7" class="bean.TestBean">
+ 	<constructor-arg index="0" ref="data2"/>
+ </bean>
+ <!-- 4가지 모두 받는 생성자 선택 -->
+ <bean id="data3" class="bean.DataBean">
+ 	<constructor-arg index="0" value="3000" type="int"/>
+ </bean>
+ <bean id="test8" class="bean.TestBean">
+ 	<constructor-arg index="0" value="500" type="int"/>
+ 	<constructor-arg index="1" value="77.77" type="double"/>
+ 	<constructor-arg index="2" value="반갑습니다" 
+ 	                 			type="java.lang.String"/>
+	<constructor-arg index="3" ref="data3"
+	                            type="bean.DataBean"/>
+ </bean>
+ <!--  setter 메서드를 이용한 주입 -->
+ <bean id="data4" class="bean.DataBean">
+ 	<constructor-arg index="0" value="5000"/>
+ </bean>
+ <bean id="test9" class="bean.TestBean">
+ 	<property name="data1" value="700"/>
+ 	<property name="data2" value="99.99"/>
+ 	<property name="data3" value="감사합니다"/>
+ 	<property name="data4" ref="data4"/>
+ </bean>
+</beans>
+
+
+
+
+
+
+
+
+
+
+

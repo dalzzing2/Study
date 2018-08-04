@@ -1,0 +1,111 @@
+﻿빌드 시작: 2014-06-25 오후 7:27:24
+     1>2 노드의 "E:\Project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\prj_01.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\prj_01.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         모든 출력이 최신 상태입니다.
+         e:\Program\Visual Studio 2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\prj_01.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt FirstFollow.cpp LRParsing.cpp prj_01View.cpp
+         FirstFollow.cpp
+     1>e:\project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\firstfollow.cpp(103): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program\visual studio 2010\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>e:\project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\firstfollow.cpp(104): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program\visual studio 2010\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>e:\project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\firstfollow.cpp(105): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program\visual studio 2010\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>e:\project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\firstfollow.cpp(106): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program\visual studio 2010\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>e:\project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\firstfollow.cpp(107): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program\visual studio 2010\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>e:\project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\firstfollow.cpp(108): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program\visual studio 2010\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>e:\project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\firstfollow.cpp(109): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program\visual studio 2010\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>e:\project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\firstfollow.cpp(110): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program\visual studio 2010\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>e:\project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\firstfollow.cpp(111): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program\visual studio 2010\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>e:\project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\firstfollow.cpp(112): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program\visual studio 2010\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>e:\project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\firstfollow.cpp(113): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program\visual studio 2010\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>e:\project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\firstfollow.cpp(114): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program\visual studio 2010\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>e:\project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\firstfollow.cpp(115): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program\visual studio 2010\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>e:\project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\firstfollow.cpp(116): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program\visual studio 2010\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>e:\project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\firstfollow.cpp(117): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program\visual studio 2010\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>e:\project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\firstfollow.cpp(118): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program\visual studio 2010\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>e:\project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\firstfollow.cpp(119): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program\visual studio 2010\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>e:\project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\firstfollow.cpp(120): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program\visual studio 2010\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>e:\project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\firstfollow.cpp(121): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program\visual studio 2010\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>e:\project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\firstfollow.cpp(122): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program\visual studio 2010\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>e:\project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\firstfollow.cpp(123): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program\visual studio 2010\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>e:\project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\firstfollow.cpp(124): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program\visual studio 2010\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>e:\project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\firstfollow.cpp(126): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program\visual studio 2010\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>e:\project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\firstfollow.cpp(127): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program\visual studio 2010\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>e:\project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\firstfollow.cpp(128): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program\visual studio 2010\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>e:\project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\firstfollow.cpp(129): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program\visual studio 2010\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>e:\project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\firstfollow.cpp(130): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program\visual studio 2010\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>e:\project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\firstfollow.cpp(131): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program\visual studio 2010\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>e:\project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\firstfollow.cpp(132): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program\visual studio 2010\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>e:\project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\firstfollow.cpp(133): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program\visual studio 2010\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>e:\project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\firstfollow.cpp(134): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program\visual studio 2010\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>e:\project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\firstfollow.cpp(484): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+         코드를 생성하고 있습니다...
+         컴파일하고 있습니다...
+         LRParsing.cpp
+     1>e:\project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\lrparsing.h(11): warning C4091: 'typedef ' : 변수를 선언하지 않으면 'token' 왼쪽은 무시됩니다.
+     1>e:\project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\lrparsing.h(18): warning C4091: 'typedef ' : 변수를 선언하지 않으면 'typeitemnode' 왼쪽은 무시됩니다.
+     1>e:\project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\lrparsing.h(26): warning C4091: 'typedef ' : 변수를 선언하지 않으면 'statenode' 왼쪽은 무시됩니다.
+     1>e:\project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\lrparsing.h(41): warning C4091: 'typedef ' : 변수를 선언하지 않으면 'gotoset' 왼쪽은 무시됩니다.
+     1>e:\project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\lrparsing.h(47): warning C4091: 'typedef ' : 변수를 선언하지 않으면 'cell_action_tbl' 왼쪽은 무시됩니다.
+         코드를 생성하고 있습니다...
+     1>e:\project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\lrparsing.cpp(384): warning C4715: 'LRParsing::pop' : 모든 제어 경로에서 값을 반환하지는 않습니다.
+         건너뛰고 있습니다... (관련된 변경 내용 없음)
+         prj_01View.cpp
+       ResourceCompile:
+         모든 출력이 최신 상태입니다.
+       ManifestResourceCompile:
+         모든 출력이 최신 상태입니다.
+       Link:
+         e:\Program\Visual Studio 2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Project\컴파일러\2009253064_prj1 - 복사본(prj3)\Debug\prj_01.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\prj_01.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Project\컴파일러\2009253064_prj1 - 복사본(prj3)\Debug\prj_01.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Project\컴파일러\2009253064_prj1 - 복사본(prj3)\Debug\prj_01.lib" /MACHINE:X86 Debug\prj_01.res
+         Debug\prj_01.exe.embed.manifest.res
+         Debug\FirstFollow.obj
+         Debug\LRParsing.obj
+         Debug\MainFrm.obj
+         Debug\prj_01.obj
+         Debug\prj_01Doc.obj
+         Debug\prj_01View.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\prj_01.exe.embed.manifest" /manifest Debug\prj_01.exe.intermediate.manifest "e:\Program\Visual Studio 2010\VC\Include\Manifest\dpiaware.manifest"
+         모든 출력이 최신 상태입니다.
+       LinkEmbedManifest:
+         모든 출력이 최신 상태입니다.
+         prj_01.vcxproj -> E:\Project\컴파일러\2009253064_prj1 - 복사본(prj3)\Debug\prj_01.exe
+       FinalizeBuildStatus:
+         "Debug\prj_01.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\prj_01.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"E:\Project\컴파일러\2009253064_prj1 - 복사본(prj3)\prj_01\prj_01.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:03.22
